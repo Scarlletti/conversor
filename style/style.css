@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-color: #beffd2;
+}
+
+h1 {
+    text-align: center;
+    padding: 4rem;
+    color: #396e4c;
+    font-family: cursive;
+    font-size: 3rem;
+}
+
+div {
+    background-color: #81bf95;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem;
+    justify-self: center;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 1rem #396e4c;
+}
+
+.binario {
+    padding: 0.3rem;
+    border: #396e4c;
+    text-align: center;
+    color: #396e4c;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.decimal {
+    color: #396e4c;
+    padding: 0.3rem;
+    border: #396e4c;
+    text-align: center;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.botao {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #396e4c;
+    box-shadow: 0.5rem 0.5rem 1rem black;
+    border: none;
+    color: white;
+    border-radius: 2rem;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.botao:hover {
+    transform: scale(1.1);
+    background-color: #4da873;
+}
